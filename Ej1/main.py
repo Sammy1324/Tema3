@@ -1,5 +1,6 @@
-from launcher import Launcher
+from app import App
 
 if __name__ == "__main__":
-    launcher = Launcher()
-    launcher.main()
+    size = int(input("Ingrese la cantidad piedras: "))  
+    app = App(size)
+    app.run()
